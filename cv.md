@@ -3,7 +3,7 @@
 ![photo](https://i.postimg.cc/k4zzPkTD/Screenshot-32.png "My photo")
 
 ## Contacts
-* **Location:** Urlsk, Kazakhstan
+* **Location:** Uralsk, Kazakhstan
 * **phone:** +77783043819 
 * **e-mail:** kozochkina82@yandex.ru
 * **Telegram:** @Dorienn
@@ -18,3 +18,28 @@ I love to learn programming, becouse it is very interesting, and also it's a kin
 My goal is to become a JS&Frontend junior as soon as possible, becouse I moved from Russia and I need to got a different profession to work abroad. 
 Unfortunately, I don't have enough time to learn, becouse I work a lot, but I don't give up and I'm trying again and again.
 
+## Skills 
+* HTML5, CSS3
+* JavaScript basics
+* Git, Github
+* VS Code
+* Adobe Photoshop, Illustrator, CorelDraw, Figma, Canva
+
+## Code example
+A sample of my code from "Codewars" website.
+```
+function multiply(a, b){
+ a * b
+  return a*b
+}
+```
+## Education
+* **Univercity:** 
+  + Samara filial of Moscow City Pedagogical Univercity (1999 - 2004), psychologist in education
+  + Samara Technical Univercity (2007 - 2012), ecology engineer
+* **Courses:**
+  + HTMLacademy
+  + freecodecamp
+  + Coursera
+  + Udemy
+  + RS School JS Stage 0
