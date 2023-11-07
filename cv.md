@@ -43,3 +43,14 @@ function multiply(a, b){
   + Coursera
   + Udemy
   + RS School JS Stage 0
+ 
+## Experience
+
+* I have some learning expiriense in JS programming. All of my student works are on my Github account: https://github.com/kozochkina82
+* I have a little axperience in website creating using Wordpress technologies.
+This is one of them: https://selkovcamp.ru/
+
+## Languages
+* **Russian** — native speaker
+* **English** — B1, learning to B2
+
