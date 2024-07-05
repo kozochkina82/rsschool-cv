@@ -33,7 +33,6 @@ html {
 * {
   box-sizing: border-box;
 }
-
 body {
    display: flex;
    flex-direction: column;
@@ -57,7 +56,6 @@ header{
   display: flex;
   flex-wrap: wrap;
 }
-
 .nav-list {
   display: flex;
   justify-content: flex-end;
@@ -71,7 +69,6 @@ header{
   color: lightslategray;
   transition: .3s;
  }
-
 .link:hover {
   color: #c999ab;
 }
