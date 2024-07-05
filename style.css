@@ -1,6 +1,131 @@
 body{
 margin: 0;
-  padding: 0;
+padding: 0;
 color: black;
-background-color: pink;
 }
+@font-face {
+  font-family: "Roboto";
+  src: url("assets/fonts/Roboto-Regular.ttf");
+ }
+@font-face {
+  font-family: "Roboto";
+  src: url("assets/fonts/Roboto-Bold.ttf");
+  font-weight: 700;
+ }
+@font-face {
+  font-family: "Roboto";
+  src: url("assets/fonts/Roboto-Light.ttf");
+  font-weight: 300;
+ }
+@font-face {
+  font-family: "Roboto";
+  src: url("assets/fonts/Roboto-Thin.ttf");
+  font-weight: 100;
+ }
+@media (max-width: 768px) {
+  .section {
+  width: 100%;
+  }
+}
+html {
+  scroll-behavior: smooth; 
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   min-height: 100vh;
+   margin: 0; padding: 0;
+   font-size: 16px;
+   font-family: "Roboto", "Arial", sans-serif;
+   color: rgb(41, 40, 40);
+   background: white;
+}
+header{
+  width: 50%;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-left: 10px;
+}
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+.link {
+  padding: 0 5px;
+  line-height: 50px;
+  text-decoration: none;
+  color: lightslategray;
+  transition: .3s;
+ }
+
+.link:hover {
+  color: #c999ab;
+}
+.link:visited {
+  color: #755762;
+}
+.nav-link{
+  padding: 0 15px;
+}
+section {
+  width: 50%;
+   border-bottom: 4px solid lightgray;   
+}
+section:last-child {
+  border: none;
+}
+h1 {
+  text-decoration: underline;
+  font-weight: 700;
+}
+h2 {
+  text-decoration: underline;
+}
+h3 {
+  font-weight: 300;
+}
+.hero{
+  width: 100%;
+}
+.photo{
+  display: block;
+  border-radius: 50%;
+  border: 5px lightgray;
+  box-shadow: 0 0 10px #444;
+  margin-bottom: 20px;
+}
+code {
+  background-color: lightpink;
+}
+footer{
+  width: 100%;
+  padding-left: 20px;
+  background-color: lightgray;
+}
+.logo{
+  padding-right: 20px;
+  padding-top: 10px;
+ }
+ .home{
+  padding-top: 8px;
+ }
+ .footer-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  }
