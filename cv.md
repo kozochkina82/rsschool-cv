@@ -10,20 +10,23 @@
 * **Github:** @kozochkina82
 
 ## About me
-Hello, my name is Nadezhda, I'm 42 years old.
-I started to learn coding last year. I have finished the Stage 0 of RS School JavaScript course (twice), and now I'm trying to learn more.
+Hello, my name is Nadezhda, I'm 43 years old.
+I learn coding in RS School for some times. I already passed Javascript/Frontend course Stage 0, Stage 1 and Stage 2, and I am taking this course for the second time.
 In the past, I've had different work expirience, including engineering and aricles writing.
-I love to learn programming, becouse it is very interesting, and also it's a kind of challenge for me. 
+I love to learn programming, becouse it is very interesting, and also it's a kind of challenge for me. I want to find a job in the future.
 
-My goal is to become a JS&Frontend junior, becouse I moved from Russia and I need to got a different profession to work abroad. 
-Unfortunately, I don't have enough time to learn, becouse I work a lot, but I don't give up and I believe this is the way.
+My goal is to become a JS&Frontend developer, becouse I moved from Russia and I need to got a different profession to work abroad. 
+I work hard, and I never have enough time, but I don't give up and I believe this is the way.
 
 ## Skills 
 * HTML5, CSS3
 * JavaScript basics
+* typescript
 * Git, Github
+* Webpack, Vite basics
 * VS Code
 * Adobe Photoshop, Illustrator, CorelDraw, Figma, Canva
+* SEO basics
 
 ## Code example
 A sample of my code from "Codewars" website.
@@ -42,13 +45,14 @@ function multiply(a, b){
   + freecodecamp
   + Coursera
   + Udemy
-  + RS School JS Stage 0, Stage 1.
+  + RS School JS Stage 0, Stage 1, Stage 2
  
 ## Experience
 
 * I have some learning expiriense in JS programming. All of my student works are on my Github account: https://github.com/kozochkina82
-* I have a little experience in website creating using Wordpress technologies.
-This is one of them: https://selkovcamp.ru/
+* I have a little experience in website creating using Wordpress technologies. https://selkovcamp.ru/  
+* I have created student project in developers team at Stage 2 final task: https://deploy-preview-121--honey-shop-sprint4.netlify.app/
+* Now I'm working on some pet projects.
 
 ## Languages
 * **Russian** — native speaker
