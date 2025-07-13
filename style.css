@@ -178,6 +178,9 @@ a:hover {
 .footer-link:active {
   color: crimson;
 }
+.invisible {
+  visibility: hidden;
+}
 
 #Education {
   order: 0;
@@ -242,4 +245,7 @@ a:hover {
     padding: 0;
     margin: 0;
   }
+.invisible {
+  visibility: hidden;
+}
 }
