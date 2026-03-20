@@ -3,25 +3,25 @@
 ![photo](https://i.postimg.cc/k4zzPkTD/Screenshot-32.png "My photo")
 
 ## Contacts
-* **Location:** Uralsk, Kazakhstan
-* **phone:** +77783043819 
+* **Location:** Bar, Montenegro
+* **phone:** +382 69 846702
 * **e-mail:** kozochkina82@yandex.ru
 * **Telegram:** @Dorienn
 * **Github:** @kozochkina82
 
 ## About me
-Hello, my name is Nadezhda, I'm 43 years old.
+Hello, my name is Nadezhda, I'm 44 years old.
 I learn coding in RS School for some times. I already passed Javascript/Frontend course Stage 0, Stage 1 and Stage 2, and I am taking this course for the second time.
 In the past, I've had different work expirience, including engineering and aricles writing.
-I love to learn programming, becouse it is very interesting, and also it's a kind of challenge for me. I want to find a job in the future.
+I love to learn programming, because it is very interesting, and also it's a kind of challenge for me. I want to find a job in the future.
 
 My goal is to become a JS&Frontend developer, becouse I moved from Russia and I need to got a different profession to work abroad. 
 I work hard, and I never have enough time, but I don't give up and I believe this is the way.
 
 ## Skills 
 * HTML5, CSS3
-* JavaScript basics
-* typescript
+* JavaScript 
+* Typescript
 * Git, Github
 * Webpack, Vite basics
 * VS Code
@@ -57,4 +57,5 @@ function multiply(a, b){
 ## Languages
 * **Russian** — native speaker
 * **English** — B1, learning to B2
+* ""Serbian** — beginner
 
