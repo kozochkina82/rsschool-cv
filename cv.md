@@ -7,7 +7,7 @@
 * **phone:** +382 69 846702
 * **e-mail:** kozochkina82@yandex.ru
 * **Telegram:** @Dorienn
-* **Github:** @kozochkina82
+* **Github:** (@kozochkina82)[https://github.com/kozochkina82]
 
 ## About me
 Hello, my name is Nadezhda, I'm 44 years old.
