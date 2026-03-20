@@ -17,6 +17,7 @@ I love to learn programming, because it is very interesting, and also it's a kin
 
 My goal is to become a JS&Frontend developer, becouse I moved from Russia and I need to got a different profession to work abroad. 
 I work hard, and I never have enough time, but I don't give up and I believe this is the way.
+Also, I like to learn in a team with other students learning programming.
 
 ## Skills 
 * HTML5, CSS3
@@ -24,6 +25,8 @@ I work hard, and I never have enough time, but I don't give up and I believe thi
 * Typescript
 * Git, Github
 * Webpack, Vite basics
+* Angular basics
+* React basics
 * VS Code
 * Adobe Photoshop, Illustrator, CorelDraw, Figma, Canva
 * SEO basics
@@ -57,5 +60,5 @@ function multiply(a, b){
 ## Languages
 * **Russian** — native speaker
 * **English** — B1, learning to B2
-* ""Serbian** — beginner
+* **Serbian** — beginner
 
