@@ -115,7 +115,7 @@ h1 {
   display: inline-block;
   padding: 10px 16px;
   border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 999px;
+  border-radius: 2rem;
   background: rgba(255, 255, 255, 0.03);
   color: #e5edf7;
   font-size: 0.95rem;
@@ -249,7 +249,7 @@ h1 {
 }
 
 .styled-list li::before {
-  content: "▹";
+  content: "\2713";
   position: absolute;
   left: 0;
   color: #b388ff;
