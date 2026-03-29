@@ -50,14 +50,14 @@ img {
 }
 
 a {
-  color: #36f3c8;
+  color: #b388ff;
   text-decoration: none;
   transition: 0.25s ease;
 }
 
 a:hover {
-  color: #7fffe2;
-  text-shadow: 0 0 10px rgba(54, 243, 200, 0.35);
+  color: #d8b4ff;
+  text-shadow: 0 0 10px rgba(179, 136, 255, 0.35);
 }
 
 .container {
@@ -75,20 +75,6 @@ a:hover {
   padding: 32px 0 0;
 }
 
-.hero-badge {
-  display: inline-block;
-  padding: 8px 14px;
-  border: 1px solid rgba(0, 255, 200, 0.12);
-  border-radius: 999px;
-  background: rgba(54, 243, 200, 0.12);
-  color: #36f3c8;
-  font-size: 0.9rem;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  margin-bottom: 20px;
-  box-shadow: 0 0 24px rgba(54, 243, 200, 0.18);
-}
-
 h1 {
   margin: 0;
   font-size: clamp(2.3rem, 5vw, 4.5rem);
@@ -99,7 +85,7 @@ h1 {
 
 .hero-role {
   margin: 14px 0 10px;
-  color: #36f3c8;
+  color: #b388ff;
   font-size: 1.2rem;
   font-weight: 400;
 }
@@ -137,9 +123,9 @@ h1 {
 }
 
 .nav-list a:hover {
-  border-color: #36f3c8;
-  color: #36f3c8;
-  box-shadow: 0 0 24px rgba(54, 243, 200, 0.18);
+  border-color: #b388ff;
+  color: #b388ff;
+  box-shadow: 0 0 24px rgba(179, 136, 255, 0.18);
 }
 
 /* LAYOUT */
@@ -162,7 +148,7 @@ h1 {
 
 .card {
   background: rgba(17, 24, 39, 0.9);
-  border: 1px solid rgba(0, 255, 200, 0.12);
+  border: 1px solid rgba(179, 136, 255, 0.14);
   border-radius: 22px;
   padding: 28px;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
@@ -176,7 +162,7 @@ h1 {
   position: absolute;
   inset: 0;
   background: linear-gradient(130deg,
-      rgba(54, 243, 200, 0.04),
+      rgba(179, 136, 255, 0.06),
       transparent 40%);
   pointer-events: none;
 }
@@ -186,7 +172,7 @@ h1 {
   font-size: 1.1rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: #36f3c8;
+  color: #b388ff;
   font-weight: 700;
   position: relative;
   z-index: 1;
@@ -213,8 +199,8 @@ h1 {
   object-fit: cover;
   border-radius: 50%;
   margin: 0 auto 20px;
-  border: 3px solid #36f3c8;
-  box-shadow: 0 0 30px rgba(54, 243, 200, 0.25);
+  border: 3px solid #b388ff;
+  box-shadow: 0 0 30px rgba(179, 136, 255, 0.25);
 }
 
 .sidebar-name {
@@ -266,7 +252,7 @@ h1 {
   content: "▹";
   position: absolute;
   left: 0;
-  color: #36f3c8;
+  color: #b388ff;
 }
 
 /* TAGS */
@@ -280,8 +266,8 @@ h1 {
 .tags span {
   padding: 10px 14px;
   border-radius: 999px;
-  background: rgba(54, 243, 200, 0.08);
-  border: 1px solid rgba(54, 243, 200, 0.16);
+  background: rgba(179, 136, 255, 0.08);
+  border: 1px solid rgba(179, 136, 255, 0.18);
   color: #e5edf7;
   font-size: 0.92rem;
   font-weight: 400;
@@ -301,7 +287,7 @@ h1 {
   padding: 22px;
   border-radius: 18px;
   background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(54, 243, 200, 0.12);
+  border: 1px solid rgba(179, 136, 255, 0.14);
   transition: transform 0.25s ease, border-color 0.25s ease,
     box-shadow 0.25s ease;
   position: relative;
@@ -310,7 +296,7 @@ h1 {
 
 .project-card:hover {
   transform: translateY(-4px);
-  border-color: rgba(54, 243, 200, 0.35);
+  border-color: rgba(179, 136, 255, 0.35);
   box-shadow: 0 16px 30px rgba(0, 0, 0, 0.28);
 }
 
@@ -327,7 +313,7 @@ h1 {
 }
 
 .project-stack {
-  color: #36f3c8;
+  color: #b388ff;
   font-size: 0.88rem;
   font-weight: 400;
 }
@@ -356,15 +342,15 @@ pre {
   margin: 0;
   padding: 22px;
   border-radius: 18px;
-  background: #060b12;
-  border: 1px solid rgba(54, 243, 200, 0.12);
+  background: #090613;
+  border: 1px solid rgba(179, 136, 255, 0.18);
   overflow-x: auto;
 }
 
 code {
-  font-family: "Roboto", sans-serif;
+  font-family: monospace;
   font-size: 0.95rem;
-  color: #b8fff0;
+  color: #ead7ff;
   font-weight: 400;
 }
 
@@ -380,7 +366,7 @@ code {
   align-items: center;
   gap: 20px;
   padding: 28px;
-  border: 1px solid rgba(0, 255, 200, 0.12);
+  border: 1px solid rgba(179, 136, 255, 0.14);
   border-radius: 22px;
   background: rgba(255, 255, 255, 0.03);
 }
@@ -399,7 +385,7 @@ code {
   width: 60px;
 }
 .rsslogo:hover {
-  filter: drop-shadow(0 0 6px rgba(54, 243, 200, 0.35));
+  filter: drop-shadow(0 0 6px rgba(215, 160, 247, 0.35));
 }
 
 /* RESPONSIVE */
