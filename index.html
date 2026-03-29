@@ -5,158 +5,204 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="assets/favicon.ico" />
-    <title>CV</title>
+    <title>CV Nadezhda Kozochkina</title>
   </head>
   <body>
-    <header>
-      <div class="container header-container">
+    <header class="hero">
+      <div class="container hero-container">
+        <h1>Nadezhda Kozochkina</h1>
+        <p class="hero-role">Junior Frontend Developer</p>
+        <p class="hero-text">
+          Building interfaces, learning systems, and gradually replacing chaos
+          with structure.
+        </p>
         <nav class="nav">
           <ul class="nav-list">
-            <li><a href="#Contacts" class="nav-link">Contacts</a></li>
-            <li><a href="#About" class="nav-link">About me</a></li>
+            <li><a href="#About" class="nav-link">About</a></li>
+            <li><a href="#Projects" class="nav-link">Projects</a></li>
             <li><a href="#Skills" class="nav-link">Skills</a></li>
-            <li><a href="#Code" class="nav-link">Code example</a></li>
             <li><a href="#Education" class="nav-link">Educatiion</a></li>
             <li><a href="#Experience" class="nav-link">Experience</a></li>
             <li><a href="#Languages" class="nav-link">Languages</a></li>
+            <li><a href="#Code" class="nav-link">Code example</a></li>
+            <li><a href="#Contacts" class="nav-link">Contacts</a></li>
           </ul>
         </nav>
-        <div class="hero-page">
-          <h1>Nadezhda Kozochkina</h1>
-          <p>junior web developer</p>
-        </div>
       </div>
     </header>
+
     <main>
-      <div class="container main-container">
-        <section class="section" id="Picture">
-          <img
-            src="assets/images/myface.png"
-            alt="My photo"
-            class="portrait"
-            width="200"
-          />
-          <h2 class="invisible">Me</h2>
-        </section>
-        <section class="section" id="Contacts">
-          <h2>Contacts</h2>
-          <ul>
-            <li><b>Location:</b> Bar, Montenegro</li>
-            <li><b>phone: </b><a href="tel:+77783043819">+38269846702</a></li>
-            <li>
-              <b>e-mail:</b>
-              <a href="mailto:kozochkina82@yandex.ru">kozochkina82@yandex.ru</a>
-            </li>
-            <li><b>Telegram:</b> @Dorienn</li>
-            <li>
-              <b>Github:</b>
-              <a href="https://github.com/kozochkina82">@kozochkina82</a>
-            </li>
-          </ul>
-        </section>
-        <section class="section" id="About">
-          <h2>About me</h2>
+      <div class="container main-layout">
+        <aside class="sidebar">
+          <section class="card profile-card">
+            <img
+              src="assets/images/myface.png"
+              alt="My photo"
+              class="portrait"
+              width="200"
+            />
+            <h2 class="sidebar-name">Nadezhda Kozochkina</h2>
+            <p class="sidebar-role">Frontend Developer in progress</p>
+          </section>
+          <section class="card" id="Contacts">
+            <h2 class="section-title">Contacts</h2>
+            <ul class="info-list">
+              <li><span>Location:</span> <strong>Bar, Montenegro</strong></li>
+              <li>
+                <span>Phone:</span> <a href="tel:+77783043819">+38269846702</a>
+              </li>
+              <li>
+                <span>Email:</span>
+                <a href="mailto:kozochkina82@yandex.ru"
+                  >kozochkina82@yandex.ru</a
+                >
+              </li>
+              <li><span>Telegram:</span><strong>@Dorienn</strong></li>
+              <li>
+                <span>Github:</span>
+                <a href="https://github.com/kozochkina82">@kozochkina82</a>
+              </li>
+            </ul>
+          </section>
+          <section class="card" id="Skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="tags">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+              <span>Typescript</span>
+              <span>Git, Github</span>
+              <span>Webpack</span>
+              <span>Vite</span>
+              <span>Angular basics</span>
+              <span>React basics</span>
+              <span>VS Code</span>
+              <span>Adobe Photoshop</span>
+              <span>Figma</span>
+            </div>
+          </section>
+          <section class="card" id="Languages">
+            <h2 class="section-title">Languages</h2>
+            <ul class="info-list">
+              <li>
+                <span>Russian</span>
+                <strong>Native</strong>
+              </li>
+              <li>
+                <span>English</span>
+                <strong>B1 → B2</strong>
+              </li>
+              <li>
+                <span>Serbian</span>
+                <strong>Beginner</strong>
+              </li>
+            </ul>
+          </section>
+        </aside>
+        <section class="content">
+        <section class="card" id="About">
+          <h2 class="section-title">About me</h2>
           <p>
-            Hello, my name is Nadezhda, I’m 44 years old. I Learn coding in
-            RSSchool for some times. I have finished the Stage 0, Stage 1 and
-            Stage 2 of RS School JavaScript course, and now I try to learn more.
-            I’ve had different work experience, including engineering and
-            articles writing. I love coding, because it is very interesting, and
-            also it’s a kind of challenge for me. I want to find a job as web
-            developer in IT company.
+            Hello, my name is Nadezhda. I am a junior frontend developer with a
+            strong interest in building interfaces and improving my programming
+            skills through practice and real projects.
           </p>
           <p>
-            My goal is to become a JS and Frontend developer, because I moved
-            from Russia and I need a different profession to work abroad. I work
-            hard, and I never have enough time, but I don’t give up and I
-            believe this is the way.
+            I completed Stage 0, Stage 1 and Stage 2 of the RS School
+            JavaScript course and continue learning modern frontend development.
+            I am currently working on pet projects and improving my skills in
+            JavaScript, TypeScript and Angular.
+          </p>
+          <p>
+            My goal is to become a professional frontend developer and work in a
+            team where I can continue growing and contributing to meaningful
+            products.
           </p>
         </section>
-        <section class="section" id="Skills">
-          <h2>Skills</h2>
-          <ul>
-            <li>HTML5, CSS3</li>
-            <li>JavaScript</li>
-            <li>Typescript</li>
-            <li>Git, Github</li>
-            <li>Webpack, Vite</li>
-            <li>Angular basics</li>
-            <li>React basics</li>
-            <li>VS Code</li>
-            <li>Adobe Photoshop, Illustrator, CorelDraw, Figma, Canva</li>
-          </ul>
+ <section class="card" id="projects">
+          <h2 class="section-title">Projects</h2>
+          <div class="projects-grid">
+            <article class="project-card">
+              <h3>Hangman Learning Game</h3>
+              <p>
+                Educational game for learning programming terms through gameplay.
+              </p>
+              <div class="project-stack">TypeScript • Angular • UI logic</div>
+            </article>
+            <article class="project-card">
+              <h3>RS School Team Project</h3>
+              <p>
+                Collaborative educational project built in a student developer
+                team.
+              </p>
+              <div class="project-stack">TypeScript • Angular • Taiga UI • Teamwork • Git</div>
+            </article>
+          </div>
         </section>
-        <section class="section" id="Code">
-          <h2>Code example</h2>
-          <p>A sample of my code from “Codewars” website.</p>
-          <p class="code-past">
-            <code>
-              function multiply(a, b){<br />
-              a * b<br />
-              return a * b<br />
-              } <br />
-            </code>
-          </p>
+        <section class="card" id="education">
+          <h2 class="section-title">Education</h2>
+
+          <div class="timeline-item">
+            <h3>Universities</h3>
+            <p>
+              Samara Branch of Moscow City Pedagogical University (1999–2004)
+            </p>
+            <p>Degree: Psychologist in Education</p>
+            <p>Samara Technical University (2007–2012)</p>
+            <p>Degree: Ecology Engineer</p>
+          </div>
+
+          <div class="timeline-item">
+            <h3>Courses</h3>
+            <p>RS School JavaScript: Stage 0, Stage 1, Stage 2</p>
+            <p>Additional learning: HTML Academy, freeCodeCamp, Udemy</p>
+          </div>
         </section>
-        <section class="section" id="Education">
-          <h2>Education</h2>
-          <h3>Univercity:</h3>
-          <ul>
+
+        <section class="card" id="experience">
+          <h2 class="section-title">Experience</h2>
+          <ul class="styled-list">
             <li>
-              Samara filial of Moscow City Pedagogical Univercity (1999 - 2004),
-              psychologist in education
-            </li>
-            <li>Samara Technical Univercity (2007 - 2012), ecology engineer</li>
-          </ul>
-          <h3>Courses:</h3>
-          <ul>
-            <li>RS School JS Stage 0, Stage 1, Stage 2</li>
-            <li>Other courses (HTMLacademy, freecodecamp, Udemy)</li>
-          </ul>
-        </section>
-        <section class="section" id="Experience">
-          <h2>Experience</h2>
-          <ul>
-            <li>
-              I have some learning expiriense in JS programming. All of my
-              student works are on my
-              <a href="https://github.com/kozochkina82">Github account.</a>
+              Built educational and training projects while learning frontend
+              development.
             </li>
             <li>
-              I have created student project in developers team at
-              <a
-                href="https://deploy-preview-121–honey-shop-sprint4.netlify.app/"
-                >Stage 2 final task</a
-              >
+              Participated in a team development project during RS School Stage
+              2.
             </li>
-            <li>Now I’m working on some pet projects.</li>
+            <li>
+              Currently developing pet projects and improving practical frontend
+              skills.
+            </li>
+            <li>
+              All student and personal works are available on
+              <a href="https://github.com/kozochkina82" target="_blank"
+                >GitHub</a
+              >.
+            </li>
           </ul>
         </section>
-        <section class="section" id="Languages">
-          <h2>Languages</h2>
-          <p>Russian — native speaker</p>
-          <p>English — B1, learning to B2</p>
-          <p>Serbian — beginner</p>
+
+        <section class="card" id="code">
+          <h2 class="section-title">Code Example</h2>
+          <p>A simple example from Codewars:</p>
+
+          <pre><code>function multiply(a, b) {
+  return a * b;
+}</code></pre>
         </section>
-      </div>
+      </section>
     </main>
+
     <footer>
-      <div class="container footer-container">
+     <div class="container footer-container">
+        <p>© 2026 Nadezhda Kozochkina</p>
+
         <div class="footer-links">
-          <div>
-            <a href="https://github.com/kozochkina82" class="footer-link"
-              >kozochkina82</a
-            >
-          </div>
-          <div>
-            <a
-              href="https://rs.school/courses/javascript-preschool-ru"
-              class="footer-link"
-            >
-              <img src="assets/rss-logo.svg" alt="rss-logo" width="40" />
-            </a>
-          </div>
-          <div>2026</div>
+          <a href="https://github.com/kozochkina82">GitHub</a>
+          <a href="https://rs.schgool/courses/javascript-preschool-ru">
+            <img src="assets/images/rs-school-logo.svg" alt="RS School Logo" class="rsslogo">
+          </a>
         </div>
       </div>
     </footer>
